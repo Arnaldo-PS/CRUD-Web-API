@@ -12,11 +12,15 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-builder.Services.AddDbContext<DataContext>(options =>
-{
-    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
-}
-);
+builder.Services.AddEntityFrameworkNpgsql()
+    .AddDbContext<DataContext>(options =>
+    options.UseNpgsql("Host=localhost;Port=5432;Pooling=true;Database=CRUD_POSTGRE_TAREFEIRO;User Id=postgres;Password=1234"));
+
+//builder.Services.AddDbContext<DataContext>(options =>
+//{
+//    options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+//}
+//);
 
 builder.Services.AddCors(options =>
 {

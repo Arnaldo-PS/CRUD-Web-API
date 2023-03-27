@@ -560,3 +560,5 @@ C:\Users\Arnaldo Pereira\Documents\Labs\Angular\CRUD Web API com Angular 13 e .N
 C:\Users\Arnaldo Pereira\Documents\Labs\Angular\CRUD Web API com Angular 13 e .Net entity framework 6\tarefeiro-back-end\TarefaApi\obj\Debug\net7.0\TarefaApi.pdb
 C:\Users\Arnaldo Pereira\Documents\Labs\Angular\CRUD Web API com Angular 13 e .Net entity framework 6\tarefeiro-back-end\TarefaApi\obj\Debug\net7.0\TarefaApi.genruntimeconfig.cache
 C:\Users\Arnaldo Pereira\Documents\Labs\Angular\CRUD Web API com Angular 13 e .Net entity framework 6\tarefeiro-back-end\TarefaApi\obj\Debug\net7.0\ref\TarefaApi.dll
+C:\Users\Arnaldo Pereira\Documents\Labs\Angular\CRUD Web API com Angular 13 e .Net entity framework 6\tarefeiro-back-end\TarefaApi\bin\Debug\net7.0\Npgsql.dll
+C:\Users\Arnaldo Pereira\Documents\Labs\Angular\CRUD Web API com Angular 13 e .Net entity framework 6\tarefeiro-back-end\TarefaApi\bin\Debug\net7.0\Npgsql.EntityFrameworkCore.PostgreSQL.dll

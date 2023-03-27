@@ -65,4 +65,22 @@ export class TarefaApiService {
     return this.http.delete(this.tarefaAPIUrl + `/status/${id}`)
   }
 
+    // STATUS
+
+    getClienteList():Observable<any[]>{
+      return this.http.get<any>(this.tarefaAPIUrl + '/clientes');
+    }
+
+    addCliente(data:any){
+      return this.http.post(this.tarefaAPIUrl + '/clientes', data)
+    }
+
+    updateCliente(id: number|string, data:any){
+      return this.http.put(this.tarefaAPIUrl + `/clientes/${id}`, data)
+    }
+
+    deleteCliente(id: number){
+      return this.http.delete(this.tarefaAPIUrl + `/clientes/${id}`)
+    }
+
 }
